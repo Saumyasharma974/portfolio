@@ -13,9 +13,10 @@ const Contact = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:5000/api/users/contact",
+        `${process.env.REACT_APP_BASE_URL}/api/users/contact`,
         { name, email, message }
       );
+      
       // Display success notification
       toast.success(response.data.message, { position: "top-right" });
       // Clear the form fields
