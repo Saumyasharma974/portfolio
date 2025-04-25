@@ -56,7 +56,7 @@ const Contact = () => {
               id="user_name"
               name="user_name"
               type="text"
-              placeholder="Your Name"
+              placeholder="Name"
               className="w-full p-3 bg-gray-700 border border-gray-600 rounded-md text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500"
               required
             />
@@ -69,7 +69,7 @@ const Contact = () => {
               id="user_email"
               name="user_email"
               type="email"
-              placeholder="Your Email"
+              placeholder="Email"
               className="w-full p-3 bg-gray-700 border border-gray-600 rounded-md text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500"
               required
             />
@@ -81,7 +81,7 @@ const Contact = () => {
             <textarea
               id="message"
               name="message"
-              placeholder="Your Message"
+              placeholder="Message"
               rows="5"
               className="w-full p-3 bg-gray-700 border border-gray-600 rounded-md text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500"
               required
