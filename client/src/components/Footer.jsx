@@ -9,7 +9,7 @@ export default function Footer() {
 
         <div className="flex justify-center gap-6 mb-4">
           <a
-            href="https://github.com/yourgithub" // 🔁 Replace with your GitHub link
+            href="https://github.com/Saumyasharma974" // 🔁 Replace with your GitHub link
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-indigo-500 transition"
@@ -17,7 +17,7 @@ export default function Footer() {
             <FaGithub size={24} />
           </a>
           <a
-            href="https://linkedin.com/in/yourlinkedin" // 🔁 Replace with your LinkedIn
+            href="https://www.linkedin.com/in/saumya-sharma-3034a8293"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-indigo-500 transition"
@@ -25,7 +25,7 @@ export default function Footer() {
             <FaLinkedin size={24} />
           </a>
           <a
-            href="mailto:youremail@example.com" // 🔁 Replace with your email
+            href="mailto:Sharmasaumya2464@gmail.com" // 🔁 Replace with your email
             className="hover:text-indigo-500 transition"
           >
             <FaEnvelope size={24} />
