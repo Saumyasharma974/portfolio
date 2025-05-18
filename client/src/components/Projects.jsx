@@ -52,6 +52,33 @@ const projects = [
       ],
       repo: 'https://github.com/Saumyasharma974/nitrinest',
     },
+     {
+    title: 'AI-Powered Real-Time Collaboration App',
+    duration: 'Apr 2025 - May 2025',
+    description:
+      'A real-time MERN chat app enhanced with AI support (Google Gemini) and in-browser code execution via WebContainer. Users can collaborate on projects, chat live, and invoke AI with `@ai`.',
+    features: [
+      'User Authentication (Login/Signup)',
+      'Create and manage projects with collaborators',
+      'Real-time chat with Socket.io',
+      'Interact with AI using @ai (Google Gemini)',
+      'In-browser code execution via WebContainer',
+      'Optimized with Redis for performance',
+    ],
+    tech: [
+      'MongoDB',
+      'Express.js',
+      'React',
+      'Node.js',
+      'Redis',
+      'Socket.io',
+      'Google Gemini API',
+      'WebContainer',
+      'Tailwind CSS',
+    ],
+    repo: 'https://github.com/Saumyasharma974/ai-chat-app',
+  },
+  
   ];
   
 export default function Projects() {
