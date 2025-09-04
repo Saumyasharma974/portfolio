@@ -38,7 +38,7 @@ export default function Hero() {
               View My Work
             </a>
             <a
-              href="resume1.pdf"
+              href="final_resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block px-8 py-4 text-lg font-semibold rounded-full border border-indigo-600 hover:bg-indigo-600 hover:text-white transform hover:scale-105 transition"
